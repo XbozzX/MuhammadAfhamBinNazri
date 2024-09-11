@@ -9,6 +9,7 @@
 <a href="https://swyft-scooter.onrender.com">
 <p>Scooter website (Freelance)	(2024)</p> 
 </a>
+<br/>
 Developed a full-stack web application for a start-up company to enhance productivity by implementing a booking management system. 
 
 •	Designed and developed a user-friendly interface using React.js and Tailwind CSS, enabling customers to view available service slots.
