@@ -7,8 +7,9 @@
 </p>
 
 # Project
-
+<a href="https://swyft-admin.onrender.com">
 <p>Scooter website (Freelance)	(2024)</p> 
+</a>
 
 <br/>
 •	Developed a full-stack web application for a start-up company to enhance productivity by implementing a booking management system.
@@ -22,6 +23,6 @@
 •	Deployed the application on Render, providing a reliable and scalable hosting solution.
 </br>
 
-<a href="https://swyft-scooter.onrender.com">
-<p>Link: </p>
-</a>
+
+
+
