@@ -7,11 +7,11 @@
 </p>
 
 # Project
-<a href="https://swyft-scooter.onrender.com">
+
 <p>Scooter website (Freelance)	(2024)</p> 
-</a>
+
 <br/>
-<p>Developed a full-stack web application for a start-up company to enhance productivity by implementing a booking management system.</p> 
+•	Developed a full-stack web application for a start-up company to enhance productivity by implementing a booking management system.
 </br>
 •	Designed and developed a user-friendly interface using React.js and Tailwind CSS, enabling customers to view available service slots.
 </br>
@@ -21,3 +21,5 @@
 </br>
 •	Deployed the application on Render, providing a reliable and scalable hosting solution.
 </br>
+
+<p>Link: <a href="https://swyft-scooter.onrender.com"></a></p>
