@@ -3,9 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarComponents from "./components/Navbar.jsx";
 import HomePages from "./Pages/Home.jsx";
-import Home from "./Pages/Home.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
