@@ -3,8 +3,9 @@ import SkillPlaceholder from "../components/SkillPlaceholder";
 
 function Skill() {
   return (
-    <div>
+    <div className=" text-white">
       <h1> Skill </h1>
+      <br />
       <div>
         <SkillPlaceholder />
       </div>
