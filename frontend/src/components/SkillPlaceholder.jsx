@@ -1,6 +1,6 @@
 import React from "react";
 import ReactImg from "../assets/reactIcon.png";
-import NodeJs from "../assets/NodeJs.png";
+import NodeJs from "../assets/nodeJs.png";
 import Arduino from "../assets/arduino.png";
 import Ccp from "../assets/ccp.png";
 import Css_3 from "../assets/css_3.png";
