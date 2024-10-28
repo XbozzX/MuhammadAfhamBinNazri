@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function Navbar() {
+function Appbar() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className=" bg-transparent">
@@ -31,4 +31,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Appbar;

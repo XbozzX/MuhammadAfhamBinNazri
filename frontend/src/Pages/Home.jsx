@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarComp from "../components/Navbar.jsx";
+import NavBarComp from "../components/Appbar.jsx";
 import WorkingExperience from "./WorkingExperience.jsx";
 import Skill from "./Skill.jsx";
 import Project from "./Project.jsx";

@@ -29,7 +29,6 @@ function SkillPlaceholder() {
         <p>Iot : Arduino, C++, Blynk</p>
         <p>Code Quality : Git, Github Action</p>
       </div>
-      <div> Tech </div>
     </div>
   );
 }
