@@ -4,7 +4,7 @@ import WorkingPlaceholder from "../components/WorkingPlaceholder.jsx";
 function WorkingExperience() {
   return (
     <div>
-      <h1> WorkingExperience </h1>
+      <h1 className=" text-white underline "> WorkingExperience </h1>
       <div>
         <WorkingPlaceholder />
       </div>

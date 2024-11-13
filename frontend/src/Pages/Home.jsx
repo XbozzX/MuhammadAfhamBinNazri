@@ -12,19 +12,33 @@ function Home() {
       <NavBarComp />
       <br />
       <br />
-      <div className=" text-center inline-flex ml-96">
-        <p className=" text-3xl text-white">Hello, I am Muhammad Afham</p>
+      <div className=" max-w-fit ml-auto mr-auto">
         <PersonalImgPlaceholder />
+        <p className=" text-2xl text-white p-3">
+          Hello, I am Muhammad Afham,
+          <br />
+          an aspiring software developer with a strong passion for technology
+          and
+          <br />
+          a commitment to advancing my technical skills. I am eager to learn,
+          grow,
+          <br />
+          and make meaningful contributions in the software development field.
+        </p>
       </div>
       <br />
       <br />
       <div>
         <Skill />
       </div>
+      <br />
+      <br />
       <div>
         <WorkingExperience />
       </div>
       <div>
+        <br />
+        <br />
         <Project />
       </div>
     </div>
