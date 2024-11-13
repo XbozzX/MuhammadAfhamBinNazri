@@ -9,19 +9,19 @@ function Appbar() {
         <Container>
           <Navbar.Brand
             className=" text-white"
-            href="https://xbozzx.github.io/MuhammadAfhamBinNazri/"
+            // href="/MuhammadAfhamBinNazri/"
           >
             Muhammad Afham
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" ms-auto">
-              <Nav.Link
+              {/* <Nav.Link
                 className=" text-white"
-                href="https://xbozzx.github.io/MuhammadAfhamBinNazri/Project"
+                // href="/MuhammadAfhamBinNazri/Project"
               >
                 Project
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 className=" text-white"
                 href="https://www.linkedin.com/in/muhammad-afham-bin-nazri-a83846190/"

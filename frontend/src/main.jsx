@@ -10,14 +10,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
-        <Route
-          path="https://xbozzx.github.io/MuhammadAfhamBinNazri/"
-          element={<HomePages />}
-        />
-        <Route
-          path="https://xbozzx.github.io/MuhammadAfhamBinNazri/Project"
-          element={<ProjectPages />}
-        />
+        //TODO: WHEN PRESS IT ,,, IT WILL GIVE 404 ERROR
+        <Route path="/" element={<HomePages />} />
+        <Route path="/Project" element={<ProjectPages />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
