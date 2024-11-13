@@ -11,9 +11,14 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
-        <Route path="/" element={<HomePages />} />
-        <Route path="/Project" element={<ProjectPages />} />
-        <Route path="/Contact" element={<ContactPages />} />
+        <Route
+          path="https://xbozzx.github.io/MuhammadAfhamBinNazri/"
+          element={<HomePages />}
+        />
+        <Route
+          path="https://xbozzx.github.io/MuhammadAfhamBinNazri/Project"
+          element={<ProjectPages />}
+        />
       </Routes>
     </BrowserRouter>
   </StrictMode>

@@ -1,15 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
 
 function Appbar() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className=" bg-transparent">
         <Container>
-          <Navbar.Brand className=" text-white" href="/">
+          <Navbar.Brand
+            className=" text-white"
+            href="https://xbozzx.github.io/MuhammadAfhamBinNazri/"
+          >
             Muhammad Afham
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +18,7 @@ function Appbar() {
             <Nav className=" ms-auto">
               <Nav.Link
                 className=" text-white"
-                href="/MuhammadAfhamBinNazri/Project"
+                href="https://xbozzx.github.io/MuhammadAfhamBinNazri/Project"
               >
                 Project
               </Nav.Link>
