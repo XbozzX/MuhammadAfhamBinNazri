@@ -5,7 +5,6 @@ import "./index.css";
 import App from "./App.jsx";
 import HomePages from "./Pages/Home.jsx";
 import ProjectPages from "./Pages/ProjectSection.jsx";
-import ContactPages from "./Pages/ContactPages.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
