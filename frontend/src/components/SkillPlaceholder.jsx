@@ -10,8 +10,8 @@ import Python from "../assets/python.png";
 
 function SkillPlaceholder() {
   return (
-    <div className=" mr-96">
-      <div className=" w-12 h-12 inline-flex space-x-7 ">
+    <div className=" mx-4 md:mx-16 lg:mr-96">
+      <div className=" flex flex-wrap justify-center gap-4">
         <img src={ReactImg} alt="React icons " />
         <img src={NodeJs} alt="NodeJs icons " />
         <img src={Arduino} alt="Arduino icons " />
@@ -22,12 +22,22 @@ function SkillPlaceholder() {
       </div>
       <br />
       <br />
-      <div className="  ml-96 text-white">
-        <p>Frontend : React, HTML, CSS, JavaScript</p>
-        <p>Backend : Node.js, Express.js, JavaScript</p>
-        <p>Database : MongoDB, MySQL, Microsoft Access</p>
-        <p>Iot : Arduino, C++, Blynk</p>
-        <p>Code Quality : Git, Github Action</p>
+      <div className="mt-8 space-y-2 text-center md:text-left">
+        <p className="text-sm md:text-base">
+          <span className="font-semibold">Frontend:</span> React, HTML, CSS, JavaScript
+        </p>
+        <p className="text-sm md:text-base">
+          <span className="font-semibold">Backend:</span> Node.js, Express.js, JavaScript
+        </p>
+        <p className="text-sm md:text-base">
+          <span className="font-semibold">Database:</span> MongoDB, MySQL, Microsoft Access
+        </p>
+        <p className="text-sm md:text-base">
+          <span className="font-semibold">IoT:</span> Arduino, C++, Blynk
+        </p>
+        <p className="text-sm md:text-base">
+          <span className="font-semibold">Code Quality:</span> Git, GitHub Actions
+        </p>
       </div>
     </div>
   );
