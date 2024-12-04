@@ -13,9 +13,9 @@ function ProjectPlaceholder() {
   return (
     <Container className="p-3">
       {/* First Row of Projects */}
-      <Row className="mb-4">
+      <Row className="d-flex align-items-stretch mb-4">
         <Col xs={12} sm={6} lg={4} className="mb-4">
-          <Card className="bg-dark text-white">
+          <Card className="bg-dark text-white h-100">
             <Card.Img
               variant="top"
               src={TrainPic}
@@ -36,7 +36,7 @@ function ProjectPlaceholder() {
         </Col>
 
         <Col xs={12} sm={6} lg={4} className="mb-4">
-          <Card className="bg-dark text-white">
+          <Card className="bg-dark text-white h-100">
             <Card.Img
               variant="top"
               src={ScooterPic}
@@ -58,7 +58,7 @@ function ProjectPlaceholder() {
         </Col>
 
         <Col xs={12} sm={6} lg={4} className="mb-4">
-          <Card className="bg-dark text-white">
+          <Card className="bg-dark text-white h-100">
             <Card.Img
               variant="top"
               src={IoTpic}
@@ -83,9 +83,9 @@ function ProjectPlaceholder() {
       </Row>
 
       {/* Second Row of Projects */}
-      <Row>
+      <Row className="d-flex align-items-stretch">
         <Col xs={12} sm={6} lg={4} className="mb-4">
-          <Card className="bg-dark text-white">
+          <Card className="bg-dark text-white h-100">
             <Card.Img
               variant="top"
               src={RideOnPic}
@@ -110,7 +110,7 @@ function ProjectPlaceholder() {
         </Col>
 
         <Col xs={12} sm={6} lg={4} className="mb-4">
-          <Card className="bg-dark text-white">
+          <Card className="bg-dark text-white h-100">
             <Card.Img
               variant="top"
               src={OMCPic}
