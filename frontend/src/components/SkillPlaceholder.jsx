@@ -12,13 +12,13 @@ function SkillPlaceholder() {
   return (
     <div className=" mx-4 md:mx-16 lg:mr-96">
       <div className=" flex flex-wrap justify-center gap-4">
-        <img src={ReactImg} alt="React icons " />
-        <img src={NodeJs} alt="NodeJs icons " />
-        <img src={Arduino} alt="Arduino icons " />
-        <img src={Ccp} alt="C++ icons " />
-        <img src={Css_3} alt="Css icons " />
-        <img src={Html} alt="Html icons " />
-        <img src={Js} alt="Js icons " />
+        <img src={ReactImg} alt="React icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={NodeJs} alt="NodeJs icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={Arduino} alt="Arduino icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={Ccp} alt="C++ icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={Css_3} alt="Css icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={Html} alt="Html icons " className="h-10 w-10 md:h-12 md:w-12"/>
+        <img src={Js} alt="Js icons " className="h-10 w-10 md:h-12 md:w-12"/>
       </div>
       <br />
       <br />
